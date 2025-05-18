@@ -1,21 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Merhaba</title>
-    <style>
-      body {
-        background-color: #f8f8f8;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin-top: 100px;
-      }
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENU - ONLINE</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="services.html">Hizmetlerimiz</a></li>
+        <li><a href="references.html">Referanslarımız</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      h1 {
-        color: #2c3e50;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Merhaba Dünya</h1>
-  </body>
+  <section class="hero">
+    <h1>MENU - ONLINE</h1>
+    <p>all world inside the menu</p>
+  </section>
+
+  <!-- Chatbox -->
+  <div class="chatbox" id="chatbox">
+    <h2>Bize Ulaşın</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="İsminiz" required>
+      <input type="email" name="email" placeholder="Mail adresiniz" required>
+      <textarea name="message" placeholder="Mesajınız" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </div>
+
+  <button id="chatToggle">Sorunuz mu var?</button>
+
+  <script src="chat.js"></script>
+</body>
 </html>
