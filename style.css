@@ -2,9 +2,10 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: #fff;
+  background-color: #fcf6ee; /* Krem rengi */
   color: #333;
 }
+
 
 /* Header kısmı */
 header {
@@ -17,8 +18,10 @@ header {
 }
 
 .logo img {
-  height: 60px;
+  height: 100px;
+  border-radius: 12px; /* isteğe bağlı köşeleri yumuşatır */
 }
+
 
 nav ul {
   list-style: none;
