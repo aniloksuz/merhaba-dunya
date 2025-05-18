@@ -13,9 +13,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  background-color: #fdfdfd;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #faf3e9; /* Burayı değiştirdik */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
 
 .logo img {
   height: 100px;
