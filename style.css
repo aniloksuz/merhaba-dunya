@@ -1,0 +1,71 @@
+/* Genel ayarlar */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header kısmı */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s;
+}
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #f28c28;
+  transition: width 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f28c28;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Başlık ve alt başlık */
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 48px;
+  color: #222;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #888;
+}
